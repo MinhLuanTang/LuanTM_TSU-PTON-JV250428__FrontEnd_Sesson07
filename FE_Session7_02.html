@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .flexbox {
+                padding: 10px;
+                border: 1px solid;
+                background-color: gainsboro;
+                border-radius: 1px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 5px;
+            }
+
+            .flexbox-item {
+                width: calc(25% - 5px);
+                height: 50px;
+                background-color: green;
+                color: white;
+                text-align: center;
+                line-height: 50px;
+                border-radius: 4px;
+            }
+    </style>
+</head>
+<body>
+     <div class="flexbox">
+        <div class="flexbox-item">1</div>
+        <div class="flexbox-item">2</div>
+        <div class="flexbox-item">3</div>
+        <div class="flexbox-item">4</div>
+        <br>
+        <div class="flexbox-item">5</div>
+        <div class="flexbox-item">6</div>
+        <div class="flexbox-item">7</div>
+        <div class="flexbox-item">8</div>
+    </div>
+</body>
+</html>
